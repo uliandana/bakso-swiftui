@@ -7,12 +7,6 @@
 
 import SwiftUI
 
-// TODO
-// Socket
-// Lint
-// Sonarqube
-// Unit test
-
 struct RegisterView: View {
     @StateObject var viewModel = RegisterViewModel()
     var body: some View {

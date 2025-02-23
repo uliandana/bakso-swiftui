@@ -17,7 +17,7 @@ struct MapView: View {
         ZStack {
             Map(position: $viewModel.region) {
                 ForEach(viewModel.userLocations) { item in
-                    Annotation("", coordinate: item.location) {
+                    Annotation("", coordinate: item.location, anchor: .leading) {
                         HStack(alignment: .center) {
                             Image(item.role == .Customer ? "ico_profile" : "ico_cart")
                                 .frame(width: 40, height: 40)
@@ -29,10 +29,16 @@ struct MapView: View {
                                 )
                             Text(item.name)
                                 .size10()
-                                .padding(8)
+                                .frame(maxWidth: 120)
+                                .fixedSize(horizontal: false, vertical: true)
+                                .lineLimit(2)
+                                .multilineTextAlignment(.leading)
+                                .padding(.horizontal, 8)
+                                .padding(.vertical, 4)
                                 .background(.white)
                                 .clipShape(RoundedRectangle(cornerRadius: 8))
                         }
+                        .offset(x: -20)
                     }
                 }
             }.onChange(of: viewModel.lastLocation) { oldValue, newValue in

@@ -55,7 +55,7 @@ class MapViewModel: ObservableObject {
         Firestore.firestore().settings = settings
         documentId = getDeviceID()
         db = Firestore.firestore()
-        dbCollection = db?.collection(Config.firestore_collection)
+        dbCollection = db?.collection(Config.firestoreCollection)
         modifyDocument()
         initDocument()
         listenDocument()
@@ -87,7 +87,7 @@ class MapViewModel: ObservableObject {
     }
     
     private func getDeviceID() -> String {
-        let key = Config.user_default_device_id
+        let key = Config.userDefaultDeviceId
         if let existingID = UserDefaults.standard.string(forKey: key) {
             return existingID
         } else {

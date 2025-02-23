@@ -15,12 +15,12 @@ struct RegisterForm: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             VStack(alignment: .leading, spacing: 8) {
-                Text(texts.input_name).size14()
-                TextInput(placeholder: texts.input_name, textValue: $user.name)
+                Text(texts.inputName).size14()
+                TextInput(placeholder: texts.inputName, textValue: $user.name)
             }
             Spacer().frame(height: 2)
             HStack(alignment: .center, spacing: 8) {
-                Text(texts.input_role).size14()
+                Text(texts.inputRole).size14()
                 Spacer()
                 Picker("", selection: $user.role) {
                     ForEach(UserRole.allCases) { item in
@@ -57,8 +57,8 @@ struct RegisterForm: View {
 }
 
 struct RegisterFormTexts {
-    static let input_name = "Nama"
-    static let input_role = "Role"
+    static let inputName = "Nama"
+    static let inputRole = "Role"
     static let cta = "Join"
     static let tnc = "Dengan menggunakan aplikasi ini Anda telah setuju untuk membagikan lokasi Anda kepada para tukang Bakso Keliling."
 }

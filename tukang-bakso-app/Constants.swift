@@ -21,7 +21,7 @@ struct Constants {
 }
 
 struct Config {
-    static let firestore_collection = "locations"
-    static let user_default_device_id = "bakso_device_id"
+    static let firestoreCollection = "locations"
+    static let userDefaultDeviceId = "bakso_device_id"
     static let typography = "Poppins"
 }

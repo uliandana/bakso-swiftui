@@ -25,7 +25,7 @@ struct ConfirmExit: View {
                 .foregroundStyle(Constants.colorTextLight)
                 .multilineTextAlignment(.center)
             VStack(spacing: 16) {
-                Text(texts.btn_ok)
+                Text(texts.btnOk)
                     .size13()
                     .frame(maxWidth: .infinity)
                     .padding()
@@ -36,7 +36,7 @@ struct ConfirmExit: View {
                         onConfirm?()
                         dismiss?()
                     }
-                Text(texts.btn_cancel)
+                Text(texts.btnCancel)
                     .size13()
                     .frame(maxWidth: .infinity)
                     .padding()
@@ -54,6 +54,6 @@ struct ConfirmExit: View {
 
 struct ConfirmExitTexts {
     static let subtitle = "Dengan menutup halaman ini, kamu akan keluar dari pantauan Tukang Bakso"
-    static let btn_ok = "OK"
-    static let btn_cancel = "Batal"
+    static let btnOk = "OK"
+    static let btnCancel = "Batal"
 }
