@@ -12,6 +12,15 @@ struct ConfirmExit: View {
     var onCancel: (() -> Void)?
     var dismiss: DismissAction?
     var texts = ConfirmExitTexts.self
+    
+    private func onTapOk() {
+        onConfirm?()
+        dismiss?()
+    }
+    
+    private func onTapCancel() {
+        onCancel?()
+    }
 
     var body: some View {
         VStack(spacing: 24) {
@@ -32,10 +41,7 @@ struct ConfirmExit: View {
                     .foregroundColor(.white)
                     .background(Constants.colorRed)
                     .clipShape(RoundedRectangle(cornerRadius: 56))
-                    .onTapGesture {
-                        onConfirm?()
-                        dismiss?()
-                    }
+                    .onTapGesture(perform: onTapOk)
                 Text(texts.btnCancel)
                     .size13()
                     .frame(maxWidth: .infinity)
@@ -43,9 +49,7 @@ struct ConfirmExit: View {
                     .foregroundColor(Constants.colorRed)
                     .clipShape(RoundedRectangle(cornerRadius: 56))
                     .overlay(RoundedRectangle(cornerRadius: 56).stroke(Constants.colorRed))
-                    .onTapGesture {
-                        onCancel?()
-                    }
+                    .onTapGesture(perform: onTapCancel)
             }
         }
         .padding()

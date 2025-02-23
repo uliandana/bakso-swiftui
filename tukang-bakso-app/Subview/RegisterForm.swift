@@ -11,6 +11,14 @@ struct RegisterForm: View {
     @Binding var user: User
     @Binding var isAgree: Bool
     let texts = RegisterFormTexts.self
+    
+    private var pickerUserRole: some View {
+        Picker("", selection: $user.role) {
+            ForEach(UserRole.allCases) { item in
+                Text(item.rawValue)
+            }
+        }
+    }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
@@ -22,11 +30,7 @@ struct RegisterForm: View {
             HStack(alignment: .center, spacing: 8) {
                 Text(texts.inputRole).size14()
                 Spacer()
-                Picker("", selection: $user.role) {
-                    ForEach(UserRole.allCases) { item in
-                        Text(item.rawValue)
-                    }
-                }
+                pickerUserRole
             }
             Spacer().frame(height: 4)
             NavigationLink {

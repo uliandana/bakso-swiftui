@@ -96,6 +96,10 @@ class MapViewModel: ObservableObject {
             return newID
         }
     }
+    
+    private func isDocumentExists(docId: String) -> Bool {
+        return self.userLocations.contains { itemLocation in docId == itemLocation.documentID }
+    }
 
     private func parseDocumentData(_ document: QueryDocumentSnapshot) -> UserLocation {
         let data = document.data()
@@ -118,8 +122,10 @@ class MapViewModel: ObservableObject {
         dbCollection.getDocuments { querySnapshot, error in
             guard let snapshot = querySnapshot else { return }
             snapshot.documents.forEach { item in
-                let isExist = self.userLocations.contains { itemLocation in item.documentID == itemLocation.documentID }
-                guard item.documentID != self.documentId, !isExist else { return }
+                guard
+                    item.documentID != self.documentId,
+                    !self.isDocumentExists(docId: item.documentID)
+                else { return }
                 self.userLocations.append(self.parseDocumentData(item))
             }
         }
