@@ -7,8 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E53D37602D5EEC5D00BB44F4 /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D375F2D5EEC5D00BB44F4 /* TextInput.swift */; };
+		E53D37622D5EEE0400BB44F4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D37612D5EEE0400BB44F4 /* MapView.swift */; };
+		E53D37692D61A7C300BB44F4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D37682D61A7C300BB44F4 /* User.swift */; };
+		E53D376C2D61A9FC00BB44F4 /* RegisterForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D376B2D61A9FC00BB44F4 /* RegisterForm.swift */; };
+		E53D376E2D61AA7B00BB44F4 /* RegisterHeading.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D376D2D61AA7B00BB44F4 /* RegisterHeading.swift */; };
+		E53D37702D61B74F00BB44F4 /* ConfirmExit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D376F2D61B74F00BB44F4 /* ConfirmExit.swift */; };
+		E53D37B22D64335D00BB44F4 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E53D379F2D64335D00BB44F4 /* Poppins-ExtraLight.ttf */; };
+		E53D37B32D64335D00BB44F4 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E53D37A02D64335D00BB44F4 /* Poppins-ThinItalic.ttf */; };
+		E53D37B42D64335D00BB44F4 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E53D37A12D64335D00BB44F4 /* Poppins-ExtraLightItalic.ttf */; };
+		E53D37B52D64335D00BB44F4 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E53D37A22D64335D00BB44F4 /* Poppins-BoldItalic.ttf */; };
+		E53D37B62D64335D00BB44F4 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E53D37A32D64335D00BB44F4 /* Poppins-Light.ttf */; };
+		E53D37B72D64335D00BB44F4 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E53D37A42D64335D00BB44F4 /* Poppins-Medium.ttf */; };
+		E53D37B82D64335D00BB44F4 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E53D37A52D64335D00BB44F4 /* Poppins-SemiBoldItalic.ttf */; };
+		E53D37B92D64335D00BB44F4 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E53D37A62D64335D00BB44F4 /* Poppins-ExtraBoldItalic.ttf */; };
+		E53D37BA2D64335D00BB44F4 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E53D37A72D64335D00BB44F4 /* Poppins-ExtraBold.ttf */; };
+		E53D37BB2D64335D00BB44F4 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E53D37A82D64335D00BB44F4 /* Poppins-BlackItalic.ttf */; };
+		E53D37BC2D64335D00BB44F4 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = E53D37A92D64335D00BB44F4 /* OFL.txt */; };
+		E53D37BD2D64335D00BB44F4 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E53D37AA2D64335D00BB44F4 /* Poppins-Regular.ttf */; };
+		E53D37BE2D64335D00BB44F4 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E53D37AB2D64335D00BB44F4 /* Poppins-LightItalic.ttf */; };
+		E53D37BF2D64335D00BB44F4 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E53D37AC2D64335D00BB44F4 /* Poppins-Bold.ttf */; };
+		E53D37C02D64335D00BB44F4 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E53D37AD2D64335D00BB44F4 /* Poppins-Black.ttf */; };
+		E53D37C12D64335D00BB44F4 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E53D37AE2D64335D00BB44F4 /* Poppins-Thin.ttf */; };
+		E53D37C22D64335D00BB44F4 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E53D37AF2D64335D00BB44F4 /* Poppins-SemiBold.ttf */; };
+		E53D37C32D64335D00BB44F4 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E53D37B02D64335D00BB44F4 /* Poppins-Italic.ttf */; };
+		E53D37C42D64335D00BB44F4 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E53D37B12D64335D00BB44F4 /* Poppins-MediumItalic.ttf */; };
+		E53D37CB2D64792F00BB44F4 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D37CA2D64792F00BB44F4 /* LocationManager.swift */; };
+		E53D37CE2D67118600BB44F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D37CD2D67118600BB44F4 /* AppDelegate.swift */; };
+		E53D37D52D6712EE00BB44F4 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = E53D37D42D6712EE00BB44F4 /* FirebaseCore */; };
+		E53D37D72D6712EE00BB44F4 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E53D37D62D6712EE00BB44F4 /* FirebaseFirestore */; };
+		E53D37D92D6720E100BB44F4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E53D37D82D6720E100BB44F4 /* GoogleService-Info.plist */; };
+		E53D37DB2D6989E700BB44F4 /* ButtonExit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D37DA2D6989E700BB44F4 /* ButtonExit.swift */; };
+		E53D37E02D698ADB00BB44F4 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D37DF2D698ADB00BB44F4 /* MapViewModel.swift */; };
+		E53D37E32D6996D700BB44F4 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D37E22D6996D700BB44F4 /* Color.swift */; };
+		E53D37E52D69981900BB44F4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D37E42D69981900BB44F4 /* Constants.swift */; };
+		E53D37E92D699EE000BB44F4 /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D37E82D699EE000BB44F4 /* UserLocation.swift */; };
+		E53D37EB2D6A0FFA00BB44F4 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D37EA2D6A0FFA00BB44F4 /* Text.swift */; };
+		E53D37ED2D6A11C700BB44F4 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D37EC2D6A11C700BB44F4 /* Button.swift */; };
+		E53D37EF2D6A12A500BB44F4 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D37EE2D6A12A500BB44F4 /* TextField.swift */; };
+		E53D37F12D6A143F00BB44F4 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D37F02D6A143F00BB44F4 /* RegisterViewModel.swift */; };
 		E54D2F292D5DFBE4000BEF59 /* tukang_bakso_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54D2F282D5DFBE4000BEF59 /* tukang_bakso_appApp.swift */; };
-		E54D2F2B2D5DFBE4000BEF59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54D2F2A2D5DFBE4000BEF59 /* ContentView.swift */; };
+		E54D2F2B2D5DFBE4000BEF59 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54D2F2A2D5DFBE4000BEF59 /* RegisterView.swift */; };
 		E54D2F2D2D5DFBE5000BEF59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E54D2F2C2D5DFBE5000BEF59 /* Assets.xcassets */; };
 		E54D2F302D5DFBE5000BEF59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E54D2F2F2D5DFBE5000BEF59 /* Preview Assets.xcassets */; };
 		E54D2F3A2D5DFBE6000BEF59 /* tukang_bakso_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54D2F392D5DFBE6000BEF59 /* tukang_bakso_appTests.swift */; };
@@ -34,9 +73,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E53D375F2D5EEC5D00BB44F4 /* TextInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInput.swift; sourceTree = "<group>"; };
+		E53D37612D5EEE0400BB44F4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E53D37682D61A7C300BB44F4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E53D376B2D61A9FC00BB44F4 /* RegisterForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterForm.swift; sourceTree = "<group>"; };
+		E53D376D2D61AA7B00BB44F4 /* RegisterHeading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterHeading.swift; sourceTree = "<group>"; };
+		E53D376F2D61B74F00BB44F4 /* ConfirmExit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmExit.swift; sourceTree = "<group>"; };
+		E53D379D2D6431FC00BB44F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E53D379F2D64335D00BB44F4 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E53D37A02D64335D00BB44F4 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		E53D37A12D64335D00BB44F4 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		E53D37A22D64335D00BB44F4 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E53D37A32D64335D00BB44F4 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		E53D37A42D64335D00BB44F4 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		E53D37A52D64335D00BB44F4 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		E53D37A62D64335D00BB44F4 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		E53D37A72D64335D00BB44F4 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E53D37A82D64335D00BB44F4 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E53D37A92D64335D00BB44F4 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		E53D37AA2D64335D00BB44F4 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		E53D37AB2D64335D00BB44F4 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		E53D37AC2D64335D00BB44F4 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		E53D37AD2D64335D00BB44F4 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		E53D37AE2D64335D00BB44F4 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		E53D37AF2D64335D00BB44F4 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		E53D37B02D64335D00BB44F4 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		E53D37B12D64335D00BB44F4 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		E53D37CA2D64792F00BB44F4 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		E53D37CD2D67118600BB44F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E53D37D82D6720E100BB44F4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E53D37DA2D6989E700BB44F4 /* ButtonExit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExit.swift; sourceTree = "<group>"; };
+		E53D37DF2D698ADB00BB44F4 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		E53D37E22D6996D700BB44F4 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		E53D37E42D69981900BB44F4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E53D37E82D699EE000BB44F4 /* UserLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
+		E53D37EA2D6A0FFA00BB44F4 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		E53D37EC2D6A11C700BB44F4 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		E53D37EE2D6A12A500BB44F4 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		E53D37F02D6A143F00BB44F4 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		E54D2F252D5DFBE4000BEF59 /* tukang-bakso-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tukang-bakso-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E54D2F282D5DFBE4000BEF59 /* tukang_bakso_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tukang_bakso_appApp.swift; sourceTree = "<group>"; };
-		E54D2F2A2D5DFBE4000BEF59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E54D2F2A2D5DFBE4000BEF59 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		E54D2F2C2D5DFBE5000BEF59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E54D2F2F2D5DFBE5000BEF59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E54D2F352D5DFBE6000BEF59 /* tukang-bakso-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tukang-bakso-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +128,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E53D37D52D6712EE00BB44F4 /* FirebaseCore in Frameworks */,
+				E53D37D72D6712EE00BB44F4 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +150,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E53D37672D61A7AE00BB44F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E53D37682D61A7C300BB44F4 /* User.swift */,
+				E53D37E82D699EE000BB44F4 /* UserLocation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E53D376A2D61A9F000BB44F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E54D2F2A2D5DFBE4000BEF59 /* RegisterView.swift */,
+				E53D37F02D6A143F00BB44F4 /* RegisterViewModel.swift */,
+				E53D37612D5EEE0400BB44F4 /* MapView.swift */,
+				E53D37DF2D698ADB00BB44F4 /* MapViewModel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E53D37712D63351D00BB44F4 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E53D379E2D64335D00BB44F4 /* Poppins */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E53D379E2D64335D00BB44F4 /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				E53D379F2D64335D00BB44F4 /* Poppins-ExtraLight.ttf */,
+				E53D37A02D64335D00BB44F4 /* Poppins-ThinItalic.ttf */,
+				E53D37A12D64335D00BB44F4 /* Poppins-ExtraLightItalic.ttf */,
+				E53D37A22D64335D00BB44F4 /* Poppins-BoldItalic.ttf */,
+				E53D37A32D64335D00BB44F4 /* Poppins-Light.ttf */,
+				E53D37A42D64335D00BB44F4 /* Poppins-Medium.ttf */,
+				E53D37A52D64335D00BB44F4 /* Poppins-SemiBoldItalic.ttf */,
+				E53D37A62D64335D00BB44F4 /* Poppins-ExtraBoldItalic.ttf */,
+				E53D37A72D64335D00BB44F4 /* Poppins-ExtraBold.ttf */,
+				E53D37A82D64335D00BB44F4 /* Poppins-BlackItalic.ttf */,
+				E53D37A92D64335D00BB44F4 /* OFL.txt */,
+				E53D37AA2D64335D00BB44F4 /* Poppins-Regular.ttf */,
+				E53D37AB2D64335D00BB44F4 /* Poppins-LightItalic.ttf */,
+				E53D37AC2D64335D00BB44F4 /* Poppins-Bold.ttf */,
+				E53D37AD2D64335D00BB44F4 /* Poppins-Black.ttf */,
+				E53D37AE2D64335D00BB44F4 /* Poppins-Thin.ttf */,
+				E53D37AF2D64335D00BB44F4 /* Poppins-SemiBold.ttf */,
+				E53D37B02D64335D00BB44F4 /* Poppins-Italic.ttf */,
+				E53D37B12D64335D00BB44F4 /* Poppins-MediumItalic.ttf */,
+			);
+			path = Poppins;
+			sourceTree = "<group>";
+		};
+		E53D37E12D6996C800BB44F4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E53D37EC2D6A11C700BB44F4 /* Button.swift */,
+				E53D37E22D6996D700BB44F4 /* Color.swift */,
+				E53D37EA2D6A0FFA00BB44F4 /* Text.swift */,
+				E53D37EE2D6A12A500BB44F4 /* TextField.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E53D37E72D699E9300BB44F4 /* Subview */ = {
+			isa = PBXGroup;
+			children = (
+				E53D37DA2D6989E700BB44F4 /* ButtonExit.swift */,
+				E53D376F2D61B74F00BB44F4 /* ConfirmExit.swift */,
+				E53D376B2D61A9FC00BB44F4 /* RegisterForm.swift */,
+				E53D376D2D61AA7B00BB44F4 /* RegisterHeading.swift */,
+				E53D375F2D5EEC5D00BB44F4 /* TextInput.swift */,
+			);
+			path = Subview;
+			sourceTree = "<group>";
+		};
 		E54D2F1C2D5DFBE4000BEF59 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +250,19 @@
 		E54D2F272D5DFBE4000BEF59 /* tukang-bakso-app */ = {
 			isa = PBXGroup;
 			children = (
+				E53D379D2D6431FC00BB44F4 /* Info.plist */,
+				E53D37D82D6720E100BB44F4 /* GoogleService-Info.plist */,
+				E53D37E12D6996C800BB44F4 /* Extension */,
+				E53D37712D63351D00BB44F4 /* Shared */,
+				E53D376A2D61A9F000BB44F4 /* View */,
+				E53D37E72D699E9300BB44F4 /* Subview */,
+				E53D37672D61A7AE00BB44F4 /* Model */,
 				E54D2F282D5DFBE4000BEF59 /* tukang_bakso_appApp.swift */,
-				E54D2F2A2D5DFBE4000BEF59 /* ContentView.swift */,
+				E53D37E42D69981900BB44F4 /* Constants.swift */,
+				E53D37CA2D64792F00BB44F4 /* LocationManager.swift */,
 				E54D2F2C2D5DFBE5000BEF59 /* Assets.xcassets */,
 				E54D2F2E2D5DFBE5000BEF59 /* Preview Content */,
+				E53D37CD2D67118600BB44F4 /* AppDelegate.swift */,
 			);
 			path = "tukang-bakso-app";
 			sourceTree = "<group>";
@@ -143,6 +308,10 @@
 			dependencies = (
 			);
 			name = "tukang-bakso-app";
+			packageProductDependencies = (
+				E53D37D42D6712EE00BB44F4 /* FirebaseCore */,
+				E53D37D62D6712EE00BB44F4 /* FirebaseFirestore */,
+			);
 			productName = "tukang-bakso-app";
 			productReference = E54D2F252D5DFBE4000BEF59 /* tukang-bakso-app.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +384,9 @@
 				Base,
 			);
 			mainGroup = E54D2F1C2D5DFBE4000BEF59;
+			packageReferences = (
+				E53D37D32D6712EE00BB44F4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = E54D2F262D5DFBE4000BEF59 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,7 +403,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E53D37B62D64335D00BB44F4 /* Poppins-Light.ttf in Resources */,
+				E53D37C02D64335D00BB44F4 /* Poppins-Black.ttf in Resources */,
+				E53D37BE2D64335D00BB44F4 /* Poppins-LightItalic.ttf in Resources */,
+				E53D37C12D64335D00BB44F4 /* Poppins-Thin.ttf in Resources */,
+				E53D37B22D64335D00BB44F4 /* Poppins-ExtraLight.ttf in Resources */,
+				E53D37C22D64335D00BB44F4 /* Poppins-SemiBold.ttf in Resources */,
+				E53D37BF2D64335D00BB44F4 /* Poppins-Bold.ttf in Resources */,
+				E53D37B32D64335D00BB44F4 /* Poppins-ThinItalic.ttf in Resources */,
+				E53D37B42D64335D00BB44F4 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				E53D37BB2D64335D00BB44F4 /* Poppins-BlackItalic.ttf in Resources */,
+				E53D37B92D64335D00BB44F4 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				E53D37B52D64335D00BB44F4 /* Poppins-BoldItalic.ttf in Resources */,
+				E53D37B82D64335D00BB44F4 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				E53D37BC2D64335D00BB44F4 /* OFL.txt in Resources */,
+				E53D37BD2D64335D00BB44F4 /* Poppins-Regular.ttf in Resources */,
+				E53D37BA2D64335D00BB44F4 /* Poppins-ExtraBold.ttf in Resources */,
+				E53D37B72D64335D00BB44F4 /* Poppins-Medium.ttf in Resources */,
 				E54D2F302D5DFBE5000BEF59 /* Preview Assets.xcassets in Resources */,
+				E53D37C32D64335D00BB44F4 /* Poppins-Italic.ttf in Resources */,
+				E53D37D92D6720E100BB44F4 /* GoogleService-Info.plist in Resources */,
+				E53D37C42D64335D00BB44F4 /* Poppins-MediumItalic.ttf in Resources */,
 				E54D2F2D2D5DFBE5000BEF59 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +449,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E54D2F2B2D5DFBE4000BEF59 /* ContentView.swift in Sources */,
+				E54D2F2B2D5DFBE4000BEF59 /* RegisterView.swift in Sources */,
+				E53D37DB2D6989E700BB44F4 /* ButtonExit.swift in Sources */,
+				E53D37622D5EEE0400BB44F4 /* MapView.swift in Sources */,
+				E53D37E02D698ADB00BB44F4 /* MapViewModel.swift in Sources */,
+				E53D37E92D699EE000BB44F4 /* UserLocation.swift in Sources */,
+				E53D37E52D69981900BB44F4 /* Constants.swift in Sources */,
+				E53D376C2D61A9FC00BB44F4 /* RegisterForm.swift in Sources */,
 				E54D2F292D5DFBE4000BEF59 /* tukang_bakso_appApp.swift in Sources */,
+				E53D37F12D6A143F00BB44F4 /* RegisterViewModel.swift in Sources */,
+				E53D37702D61B74F00BB44F4 /* ConfirmExit.swift in Sources */,
+				E53D37692D61A7C300BB44F4 /* User.swift in Sources */,
+				E53D37EB2D6A0FFA00BB44F4 /* Text.swift in Sources */,
+				E53D37E32D6996D700BB44F4 /* Color.swift in Sources */,
+				E53D37602D5EEC5D00BB44F4 /* TextInput.swift in Sources */,
+				E53D376E2D61AA7B00BB44F4 /* RegisterHeading.swift in Sources */,
+				E53D37CE2D67118600BB44F4 /* AppDelegate.swift in Sources */,
+				E53D37EF2D6A12A500BB44F4 /* TextField.swift in Sources */,
+				E53D37CB2D64792F00BB44F4 /* LocationManager.swift in Sources */,
+				E53D37ED2D6A11C700BB44F4 /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +556,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -404,6 +614,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -425,6 +636,7 @@
 				DEVELOPMENT_TEAM = F67J5L3Z4N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tukang-bakso-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +666,7 @@
 				DEVELOPMENT_TEAM = F67J5L3Z4N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tukang-bakso-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -588,6 +801,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E53D37D32D6712EE00BB44F4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E53D37D42D6712EE00BB44F4 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E53D37D32D6712EE00BB44F4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		E53D37D62D6712EE00BB44F4 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E53D37D32D6712EE00BB44F4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E54D2F1D2D5DFBE4000BEF59 /* Project object */;
 }
