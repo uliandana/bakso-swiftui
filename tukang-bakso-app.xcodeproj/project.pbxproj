@@ -46,6 +46,7 @@
 		E53D37ED2D6A11C700BB44F4 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D37EC2D6A11C700BB44F4 /* Button.swift */; };
 		E53D37EF2D6A12A500BB44F4 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D37EE2D6A12A500BB44F4 /* TextField.swift */; };
 		E53D37F12D6A143F00BB44F4 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D37F02D6A143F00BB44F4 /* RegisterViewModel.swift */; };
+		E53D37F52D6B2FC400BB44F4 /* MapMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D37F42D6B2FC400BB44F4 /* MapMarker.swift */; };
 		E54D2F292D5DFBE4000BEF59 /* tukang_bakso_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54D2F282D5DFBE4000BEF59 /* tukang_bakso_appApp.swift */; };
 		E54D2F2B2D5DFBE4000BEF59 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54D2F2A2D5DFBE4000BEF59 /* RegisterView.swift */; };
 		E54D2F2D2D5DFBE5000BEF59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E54D2F2C2D5DFBE5000BEF59 /* Assets.xcassets */; };
@@ -111,6 +112,7 @@
 		E53D37EC2D6A11C700BB44F4 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		E53D37EE2D6A12A500BB44F4 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		E53D37F02D6A143F00BB44F4 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		E53D37F42D6B2FC400BB44F4 /* MapMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMarker.swift; sourceTree = "<group>"; };
 		E54D2F252D5DFBE4000BEF59 /* tukang-bakso-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tukang-bakso-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E54D2F282D5DFBE4000BEF59 /* tukang_bakso_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tukang_bakso_appApp.swift; sourceTree = "<group>"; };
 		E54D2F2A2D5DFBE4000BEF59 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 			children = (
 				E53D37DA2D6989E700BB44F4 /* ButtonExit.swift */,
 				E53D376F2D61B74F00BB44F4 /* ConfirmExit.swift */,
+				E53D37F42D6B2FC400BB44F4 /* MapMarker.swift */,
 				E53D376B2D61A9FC00BB44F4 /* RegisterForm.swift */,
 				E53D376D2D61AA7B00BB44F4 /* RegisterHeading.swift */,
 				E53D375F2D5EEC5D00BB44F4 /* TextInput.swift */,
@@ -459,6 +462,7 @@
 				E54D2F292D5DFBE4000BEF59 /* tukang_bakso_appApp.swift in Sources */,
 				E53D37F12D6A143F00BB44F4 /* RegisterViewModel.swift in Sources */,
 				E53D37702D61B74F00BB44F4 /* ConfirmExit.swift in Sources */,
+				E53D37F52D6B2FC400BB44F4 /* MapMarker.swift in Sources */,
 				E53D37692D61A7C300BB44F4 /* User.swift in Sources */,
 				E53D37EB2D6A0FFA00BB44F4 /* Text.swift in Sources */,
 				E53D37E32D6996D700BB44F4 /* Color.swift in Sources */,
