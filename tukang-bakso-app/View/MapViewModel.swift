@@ -137,7 +137,13 @@ class MapViewModel: ObservableObject {
             guard let snapshot = querySnapshot, let changes = snapshot.documentChanges.last else { return }
             if changes.type == .added {
                 guard changes.document.documentID != self.documentId else { return }
-                self.userLocations.append(self.parseDocumentData(changes.document))
+                if self.isDocumentExists(docId: changes.document.documentID) {
+                    let index = self.userLocations.firstIndex { item in item.documentID == changes.document.documentID }
+                    guard let index = index else { return }
+                    self.userLocations[index] = self.parseDocumentData(changes.document)
+                } else {
+                    self.userLocations.append(self.parseDocumentData(changes.document))
+                }
             } else if changes.type == .removed {
                 self.userLocations.removeAll { item in item.documentID == changes.document.documentID }
             } else if changes.type == .modified {
